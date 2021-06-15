@@ -11,11 +11,11 @@ export default function Navbar(props) {
 
   return (
     <div className='nav-bar'>
-      <NavIcon id={1}icon={ icon1 }/>
-      <NavIcon id={2}icon={ icon2 }/>
-      <NavIcon id={3}icon={ icon3 }/>
-      <NavIcon id={4}icon={ icon4 }/>
-      <NavIcon id={5}icon={ icon5 }/>
+      <NavIcon id={'icon1'} icon={ icon1 }/>
+      <NavIcon id={'icon2'} icon={ icon2 }/>
+      <NavIcon id={'icon3'} icon={ icon3 }/>
+      <NavIcon id={'icon4'} icon={ icon4 }/>
+      <NavIcon id={'icon5'} icon={ icon5 }/>
     </div>
   )
 };
