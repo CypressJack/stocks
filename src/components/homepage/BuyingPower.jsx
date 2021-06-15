@@ -1,6 +1,6 @@
 import React from 'react';
 import "./HomePage.scss";
-import icon from "../assets/buying-power/buying-power-icon.png";
+import icon from "../../assets/buying-power/buying-power-icon.png";
 
 export default function BuyingPower(props) {
   return (

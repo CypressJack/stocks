@@ -1,8 +1,8 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import "./HomePage.scss";
-import freeStock from "../assets/investing-header/free-stock.png";
-import upArrow from "../assets/investing-header/up-arrow1.png";
+import freeStock from "../../assets/investing-header/free-stock.png";
+import upArrow from "../../assets/investing-header/up-arrow1.png";
 
 export default function InvestingHeader(props) {
   console.log(props.graphState);

@@ -1,7 +1,7 @@
 import React from 'react';
 import "./HomePage.scss";
-import icon from "../assets/stock-news/stock-news.png";
-import viewArticle from "../assets/stock-news/view-article.png"
+import icon from "../../assets/stock-news/stock-news.png";
+import viewArticle from "../../assets/stock-news/view-article.png"
 
 export default function StockNews(props) {
 

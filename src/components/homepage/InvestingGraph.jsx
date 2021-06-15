@@ -1,29 +1,29 @@
 import React from 'react';
 import { useState } from 'react';
 import "./HomePage.scss";
-import line from "../assets/stock-graph/line-1m.png";
+import line from "../../assets/stock-graph/line-1m.png";
 import GraphIcon from "./GraphIcon";
-import icon1 from "../assets/stock-graph/live.png"
-import icon2 from "../assets/stock-graph/1d.png"
-import icon3 from "../assets/stock-graph/1w.png"
-import icon4 from "../assets/stock-graph/1m.png"
-import icon5 from "../assets/stock-graph/3m.png"
-import icon6 from "../assets/stock-graph/1y.png"
-import icon7 from "../assets/stock-graph/all.png"
+import icon1 from "../../assets/stock-graph/live.png"
+import icon2 from "../../assets/stock-graph/1d.png"
+import icon3 from "../../assets/stock-graph/1w.png"
+import icon4 from "../../assets/stock-graph/1m.png"
+import icon5 from "../../assets/stock-graph/3m.png"
+import icon6 from "../../assets/stock-graph/1y.png"
+import icon7 from "../../assets/stock-graph/all.png"
 
-import icon2Selected from "../assets/stock-graph/1d-selected.png"
-import icon3Selected from "../assets/stock-graph/1w-selected.png"
-import icon4Selected from "../assets/stock-graph/1m-selected.png"
-import icon5Selected from "../assets/stock-graph/3m-selected.png"
-import icon6Selected from "../assets/stock-graph/1y-selected.png"
-import icon7Selected from "../assets/stock-graph/all-selected.png"
+import icon2Selected from "../../assets/stock-graph/1d-selected.png"
+import icon3Selected from "../../assets/stock-graph/1w-selected.png"
+import icon4Selected from "../../assets/stock-graph/1m-selected.png"
+import icon5Selected from "../../assets/stock-graph/3m-selected.png"
+import icon6Selected from "../../assets/stock-graph/1y-selected.png"
+import icon7Selected from "../../assets/stock-graph/all-selected.png"
 
-import graphLine1 from "../assets/stock-graph/line-1d.png";
-import graphLine2 from "../assets/stock-graph/line-1w.png";
-import graphLine3 from "../assets/stock-graph/line-1m.png";
-import graphLine4 from "../assets/stock-graph/line-3m.png";
-import graphLine5 from "../assets/stock-graph/line-1y.png";
-import graphLine6 from "../assets/stock-graph/line-all.png";
+import graphLine1 from "../../assets/stock-graph/line-1d.png";
+import graphLine2 from "../../assets/stock-graph/line-1w.png";
+import graphLine3 from "../../assets/stock-graph/line-1m.png";
+import graphLine4 from "../../assets/stock-graph/line-3m.png";
+import graphLine5 from "../../assets/stock-graph/line-1y.png";
+import graphLine6 from "../../assets/stock-graph/line-all.png";
 
 export default function InvestingGraph(props) {
 
