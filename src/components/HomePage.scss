@@ -10,3 +10,47 @@
   border: 2px solid black;
   height: 25vh;
 }
+
+.investing {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 66vh;
+  background-color: hotpink;
+}
+
+.buying-power {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 30px;
+  height: 7vh;
+  border-top: 2px solid black;
+  background-color: khaki;
+}
+
+.buying-power-icon {
+  padding-left: 5px;
+}
+
+.stock-news {
+  padding-left: 10px;
+  padding-bottom: 2px;
+}
+
+.news-icon {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.article-heading {
+  width: 80%;
+  padding-top: 1px;
+}
+
+.view-article {
+  padding-left: 10px;
+  padding-top: 30px;
+}
