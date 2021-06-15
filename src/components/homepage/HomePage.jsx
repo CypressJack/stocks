@@ -10,7 +10,7 @@ export default function Homepage(props){
   
   return (
     <div className='home-page'>
-      <Investing/>
+      <Investing equity={ props.equity }getBuyingPower={ props.getBuyingPower }/>
       <StockNews/>
     </div>
   );

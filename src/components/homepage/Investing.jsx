@@ -15,9 +15,9 @@ export default function Investing(props) {
 
   return (
     <div className='investing'>
-      <InvestingHeader graphState={ graphState }/>
+      <InvestingHeader equity={ props.equity }graphState={ graphState }/>
       <InvestingGraph changeDelta={ changeDelta }/>
-      <BuyingPower/>
+      <BuyingPower getBuyingPower={ props.getBuyingPower }/>
     </div>
   )
 };

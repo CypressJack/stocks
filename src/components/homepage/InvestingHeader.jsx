@@ -3,10 +3,11 @@ import { useState, useEffect } from 'react';
 import "./HomePage.scss";
 import freeStock from "../../assets/investing-header/free-stock.png";
 import upArrow from "../../assets/investing-header/up-arrow1.png";
+import createStringFromNum from '../../helpers/createStringFromNum';
 
 export default function InvestingHeader(props) {
-  console.log(props.graphState);
 
+  const equity = createStringFromNum(props.equity)
 
   const [deltaText, setDeltaText] = useState(['$6,874.72 (9.23%)', 'Past Month']);
 
@@ -23,7 +24,7 @@ export default function InvestingHeader(props) {
   return (
     <div className='investing-header'>
       <div className='investing-header-left'>
-        <h2 className='portfolio-value'>Investing $72,024.20</h2>
+        <h2 className='portfolio-value'>Investing { equity }</h2>
         <span className='portfolio-delta'><img src={upArrow} alt='up-arrow'/>{ deltaText[0] }</span><span className='timeline-delta'>{ deltaText[1] }</span>
       </div>
       <div>

@@ -1,0 +1,99 @@
+.wallet {
+  background-color: white;
+  position: fixed;
+  top:0;
+  width:100%;
+  height: 91.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.wallet-header {
+  background-color: white;
+  height:10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 2px solid #e9f2f7;
+}
+
+.wallet-value {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.wallet-heading {
+  color: #747579;
+  margin-top: 5px;
+}
+
+.wallet-stocks {
+  background-color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.wallet-stock-heading {
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+.wallet-crypto {
+  background-color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.wallet-crypto-heading {
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+.stock-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.stock-list-item-ticker {
+  font-weight: 400;
+  font-size: 1.1em;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.stock-owned-shares {
+  margin-top: 2px;
+  font-size: 0.8em;
+  color: #747579;
+}
+
+.ticker-shares {
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.equity-up{
+  font-size: 0.8em;
+  font-weight: 600;
+  color: white;
+  background-color: #00C805;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+
+.equity-down{
+  font-size: 0.8em;
+  font-weight: 600;
+  color: white;
+  background-color: #FD5100;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
