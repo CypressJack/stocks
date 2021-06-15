@@ -1,0 +1,14 @@
+.nav-bar {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 85%;
+  display: flex;
+  padding-right: 30px;
+  padding-left: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  border: 2px solid black;
+}
