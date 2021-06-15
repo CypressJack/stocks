@@ -1,16 +1,19 @@
 $font-stack:    'Nunito', sans-serif;
+$green-color: #00C804;
 
 .home-page {
   display: flex;
   height: 91.5vh;
   flex-direction: column;
   justify-content: flex-end;
-  background-color: lightgreen;
+  background-color: white;
   font-family: $font-stack;
 }
 
 .stock-news {
   height: 28vh;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .investing {
@@ -18,11 +21,11 @@ $font-stack:    'Nunito', sans-serif;
   flex-direction: column;
   justify-content: flex-end;
   height: 66vh;
-  background-color: hotpink;
+  background-color: white;
 }
 
 .investing-graph {
-  background-color: cyan;
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,11 +35,11 @@ $font-stack:    'Nunito', sans-serif;
   height: 25vh;
   display: flex;
   flex-direction: row;
-  background-color: darkseagreen;
+  background-color: white;
 }
 
 .investing-header-left {
-  background-color: tan;
+  background-color: white;
   padding-left: 22px;
 }
 
@@ -71,12 +74,19 @@ $font-stack:    'Nunito', sans-serif;
   padding-left: 20px;
   padding-right: 30px;
   height: 8vh;
-  background-color: khaki;
+  background-color: white;
   font-weight: 600;
 }
 
 .portfolio-delta {
-  background-color: dimgray;
+  background-color: white;
+  font-size: 14px;
+  color: $green-color;
+}
+
+.timeline-delta {
+  padding-left: 8px;
+  font-size: 0.8em;
 }
 
 .buying-power-icon {
@@ -87,6 +97,7 @@ $font-stack:    'Nunito', sans-serif;
   font-weight: 500px;
   padding-left: 10px;
   padding-bottom: 2px;
+  border: 3px solid #dde9f0;
 }
 
 .news-icon {
@@ -94,13 +105,22 @@ $font-stack:    'Nunito', sans-serif;
   padding-right: 10px;
 }
 
+.news-heading {
+  font-size: 15px;
+  font-weight: 600;
+  color: #9AA7AE;
+}
+
 .article-heading {
   width: 80%;
   padding-top: 1px;
+  font-weight: 600;
 }
 
 .view-article {
   padding-left: 10px;
   padding-top: 20px;
+  color: $green-color;
+  font-weight: 600;
 }
 

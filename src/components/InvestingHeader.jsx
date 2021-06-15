@@ -8,7 +8,7 @@ export default function InvestingHeader(props) {
     <div className='investing-header'>
       <div className='investing-header-left'>
         <h2 className='portfolio-value'>Investing $72,024.20</h2>
-        <p className='portfolio-delta'><img src={upArrow} alt='up-arrow'/>$6,874.72 9.23%</p>
+        <span className='portfolio-delta'><img src={upArrow} alt='up-arrow'/>$6,874.72 &#40;9.23%&#41;</span><span className='timeline-delta'>Past Month</span>
       </div>
       <div>
         <img className='free-stock' src={ freeStock } alt='free-stock' />
