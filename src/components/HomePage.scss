@@ -29,6 +29,7 @@ $green-color: #00C804;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 20px;
 }
 
 .investing-header {
@@ -58,7 +59,12 @@ $green-color: #00C804;
 }
 
 .graph-line {
-  padding-bottom: 15px;
+  padding-bottom: 30px;
+}
+
+.graph-button {
+  background-color: white;
+  border: none;
 }
 
 .portfolio-value {
@@ -76,6 +82,9 @@ $green-color: #00C804;
   height: 8vh;
   background-color: white;
   font-weight: 600;
+  border-radius: 8px;
+  border: 3px solid #dde9f0;
+  border-bottom: 0px;
 }
 
 .portfolio-delta {
@@ -109,6 +118,11 @@ $green-color: #00C804;
   font-size: 15px;
   font-weight: 600;
   color: #9AA7AE;
+}
+
+.view-article-icon {
+  height: 10px;
+  padding-left: 8px;
 }
 
 .article-heading {

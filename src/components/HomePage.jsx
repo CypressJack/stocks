@@ -5,6 +5,9 @@ import Investing from "./Investing";
 
 
 export default function Homepage(props){
+
+
+  
   return (
     <div className='home-page'>
       <Investing/>
