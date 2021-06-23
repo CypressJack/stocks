@@ -1,0 +1,140 @@
+$font-stack:    'Nunito', sans-serif;
+$green-color: #00C804;
+
+.home-page {
+  display: flex;
+  height: 91.5vh;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: white;
+  font-family: $font-stack;
+}
+
+.stock-news {
+  height: 28vh;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.investing {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 66vh;
+  background-color: white;
+}
+
+.investing-graph {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.investing-header {
+  height: 25vh;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.investing-header-left {
+  background-color: white;
+  padding-left: 22px;
+}
+
+.free-stock {
+  padding-top: 35px;
+  padding-right: 30px;
+}
+
+.graph-icons {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.graph-line {
+  padding-bottom: 30px;
+}
+
+.graph-button {
+  background-color: white;
+  border: none;
+}
+
+.portfolio-value {
+  font-size: 2em;
+  width: 70%;
+}
+
+.buying-power {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 30px;
+  height: 8vh;
+  background-color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 3px solid #dde9f0;
+  border-bottom: 0px;
+}
+
+.portfolio-delta {
+  background-color: white;
+  font-size: 14px;
+  color: $green-color;
+}
+
+.timeline-delta {
+  padding-left: 8px;
+  font-size: 0.8em;
+}
+
+.buying-power-icon {
+  padding-left: 5px;
+}
+
+.stock-news {
+  font-weight: 500px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  border: 3px solid #dde9f0;
+}
+
+.news-icon {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.news-heading {
+  font-size: 15px;
+  font-weight: 600;
+  color: #9AA7AE;
+}
+
+.view-article-icon {
+  height: 10px;
+  padding-left: 8px;
+}
+
+.article-heading {
+  width: 80%;
+  padding-top: 1px;
+  font-weight: 600;
+}
+
+.view-article {
+  padding-left: 10px;
+  padding-top: 20px;
+  color: $green-color;
+  font-weight: 600;
+}
+
